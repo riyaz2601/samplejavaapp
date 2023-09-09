@@ -1,5 +1,4 @@
 package com.devopsdemo.utilities;
-
 import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.Locale;
@@ -97,7 +96,7 @@ public class PropertyLoader
 		} 
 		if (THROW_ON_LOAD_FAILURE && (result == null)) 
 		{ 
-			// LOG exception... Do not re-throw this.. as I do not expect users to catch this exception :-) 
+			/// LOG exception... Do not re-throw this.. as I do not expect users to catch this exception :-) 
 			//throw new IllegalArgumentException ("could not load [" + name + "]"+ " as " + (LOAD_AS_RESOURCE_BUNDLE ? "a resource bundle" : "a classloader resource"));
 			result = new Properties ();
 		} 
