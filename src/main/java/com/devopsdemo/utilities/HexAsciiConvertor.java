@@ -1,5 +1,6 @@
 package com.devopsdemo.utilities;
 
+
 public class HexAsciiConvertor {
 	/***
 	 * Method to convert hexadecimal values into ascii
